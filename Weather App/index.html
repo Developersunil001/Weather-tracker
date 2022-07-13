@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="app-main" data-tilt data-tilt-max="20" data-tilt-perspective="1000">
+        <div class="searchInputbox">
+            <input type="text" name="" id="input-box" placeholder="Enter Your City" autocomplete="off"
+                class="input-box">
+        </div>
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city">Meerut,IN</div>
+                <div class="date" id="date">19 December (friday),2022</div>
+            </div>
+            <div class="weather-status">
+                <div class="temp" id="temp">35&degC</div>
+                <div class="min-max" id="min-max">32&degC(min) / 34&degC(max)</div>
+                <div class="weather" id="weather">Clear</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js" integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
